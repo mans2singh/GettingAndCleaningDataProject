@@ -66,8 +66,8 @@ Before the steps for creating the tidy data can executed the following data file
 	* Load the train subject, observation, and activity tables
 	* Set up the variable names for train data
 	* Combine the subject, activity and observations data for train  
-* Combine the test and train data
-#####2. Select the std and mean related columns names
+* Combine the test and train data  
+#####2. Select the std and mean related columns names  
 * Select the values of the mean and std variables  
 #####3. Add activity name to the combined table  
 #####4. Provide descriptive variable names using the **stringr** package  
