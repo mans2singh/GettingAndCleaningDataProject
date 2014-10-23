@@ -1,25 +1,53 @@
 Code Book
 =================
 
+#### Data
+The data used for this project is available from 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-For analysis the data was available from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+For the project the data was downloaded from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
-The project was to merge the test and train data measurements and associate variable names with the observations, extract only variables with standard deviation and mean in the name , combine the measurements with the subject and activity id, provide descriptive names for the variable and finally to find the average of each variable by each subject and each activity.  All the measurement variables are numeric
+#### Analysis
+The analysis of the data involves 
+* Merging the test and train data measurements and associating variable names with the observations, and combining the measurements with the subject and activity id.
+* Extracting only variables with standard deviation and mean in the name,  
+* Provide descriptive names for the variable, and 
+* Finally to find the average of each variable by each subject and each activity.  
 
-The features selected include Mean or mean and std in it's name.
+#### Data files
+The following data files, located in the unzipped data directory, were used for the analysis:
+* features.txt for variable names
+* activity.txt for activity id to activity name mapping
+* Test data 
+	* test/X_test.txt containing measurements
+	* test/y_test.txt containing the activity id for each measurement
+	* test/subject_test.txt containing the subject id for each measurement
+* Train data
+	* train/X_train.txt containing measurements
+	* train/y_train.txt containing the activity id for each measurement
+	* train/subject_train.txt containing the subject id for each measurement
 
-To create descriptive names the following variable names were transformed as follows:
-#### variable name starting with t were replaced by time
-#### variable name starting with f was relaced by freq (indicating frequency domain transformation)
-#### those with mean and std were replaced by Mean and Std
-#### All commas, parenthesis and hyphens are remove removed.
+#### Features selected
+The features selected include Mean or mean and std in it's name.  A comprehensive list of the features is available in the features.txt file in the unzipped data directory.
 
-From the feature_info.txt file in the data set 
+#### Descriptive feature names
+To create descriptive names the variable or features transformed as follows:
+* variable name starting with **t** were replaced by **time** to indicate time domain measurment
+* variable name starting with **f** was relaced by **freq** to indicating frequency domain transformation)
+* variable names with **mean** or **std** were replaced by **Mean** and **Std**
+* All commas, parenthesis and hyphens are remove removed.
 
+#### Examples of variable name translation
 
-The original 86 variable names are as follows:
+	| Original Name | Transformed Name |
+	|---------------|------------------|
+	| tBodyAcc-mean()-X | timeBodyAccMeanX |
+	| angle(tBodyGyroMean,gravityMean) | angleTimeBodyAccJerkMeanGravityMean |
 
+#### Original selected features list
+From the feature_info.txt file in the data set the following features were selected based on occurrence of the **mean**, **Mean**, or **std** in the name and had some measurement values in it.  
+
+>
 tBodyAcc-mean()-X                   
 tBodyAcc-mean()-Y                   
 tBodyAcc-mean()-Z                   
@@ -107,9 +135,14 @@ angle(X,gravityMean)
 angle(Y,gravityMean)                
 angle(Z,gravityMean)                
 
+#### Final feature names
+The final variable names includes the 
+* subject id, 
+* activity id, 
+* activity name, and 
+* 86 average of measurements corresponding to the origin variables mentioned above after transforming the variable names.
 
-The final variable names includes the subject id, activity id, activity name and 86 average of measurements corresponding to the origin variables mentioned above after transforming the variable names.
-
+>
 subject_id                          
 activity_id                         
 activity_name                       

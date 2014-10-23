@@ -5,22 +5,37 @@ Coursera Getting and Cleaning Data Project Assignment
 
 ### Introduction  
 This R script executes the steps for creating a tidy data from that includes the mean for all columns with mean and std for each subject and activity from the UCI data set. 
-#### Processing Requirements
+
+#### Processing Steps
 The mains steps involved in the processing are  
 * Merges the training and the test sets to create one data set.
 * Extracts only the measurements on the mean and standard deviation for each measurement.
 * Uses descriptive activity names to name the activities in the data set
 * Appropriately labels the data set with descriptive variable names. 
 * From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject
+
+#### Data files from the unzipped UCI data directory
+The following data files are used for the project
+* features.txt for variable names
+* activity.txt for activity id to activity name mapping
+* Test data 
+	* test/X_test.txt containing measurements
+	* test/y_test.txt containing the activity id for each measurement
+	* test/subject_test.txt containing the subject id for each measurement
+* Train data
+	* train/X_train.txt containing measurements
+	* train/y_train.txt containing the activity id for each measurement
+	* train/subject_train.txt containing the subject id for each measurement
     
 ### Pre-requisites for executing the script  
-#### Data input
-* The script assumes that the UCI data has been unzipped
+* Data input
+	* The script assumes that the UCI data has been unzipped
 the script is in the directory with the features.txt, activity.txt along with the test and training data directories.
-#### Script location
-* The script should be executed from the directory containing the unzipped data 
-#### R library requirements
-* The processing needs dplyr and stringr packages.
+* Script location
+	* The script should be executed from the directory containing the unzipped data 
+* R library requirements
+	* The script uses dplyr and stringr packages.
+
 #### Helper function 
 * A helper function is also used for making the variables more readable.
     
@@ -60,4 +75,4 @@ Before the steps for creating the tidy data can executed the following data must
 
 #### Create tidy data set with average for each variable for each activity and subject
 * Compute the mean using dplyr package 
-* output the tidy data set is saved as tidy_combined_statistics.txt table
+* Output the tidy data set is saved as tidy_combined_statistics.txt table
