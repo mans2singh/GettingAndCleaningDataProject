@@ -46,7 +46,7 @@ the script is in the directory with the following files/diretories:
 ### Executing the script
 * Start the R application
 * Set the working directory to be the unzipped data director
-* Launch the script using the command 
+* Launch the script using the command  
 > source("run_analysis.R")   
     
 ### Details of the processing steps:
