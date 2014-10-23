@@ -131,9 +131,9 @@ fBodyBodyGyroJerkMag-mean()
 fBodyBodyGyroJerkMag-std()          
 fBodyBodyGyroJerkMag-meanFreq()     
 angle(tBodyAccMean,gravity)         
-angle(tBodyAccJerkMean),gravityMean)
+angle(tBodyAccJerkMean),gravityMean)  
 angle(tBodyGyroMean,gravityMean)    
-angle(tBodyGyroJerkMean,gravityMean)
+angle(tBodyGyroJerkMean,gravityMean)  
 angle(X,gravityMean)                
 angle(Y,gravityMean)                
 angle(Z,gravityMean)                
@@ -229,9 +229,9 @@ freqBodyBodyGyroJerkMagMean
 freqBodyBodyGyroJerkMagStd          
 freqBodyBodyGyroJerkMagMeanFreq     
 angleTimeBodyAccMeanGravity         
-angleTimeBodyAccJerkMeanGravityMean 
+angleTimeBodyAccJerkMeanGravityMean  
 angleTimeBodyGyroMeanGravityMean    
-angleTimeBodyGyroJerkMeanGravityMean
+angleTimeBodyGyroJerkMeanGravityMean  
 angleXGravityMean                   
 angleYGravityMean                   
 angleZGravityMean                   
