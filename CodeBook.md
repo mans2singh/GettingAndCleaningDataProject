@@ -28,7 +28,7 @@ The following data files, located in the unzipped data directory, were used for 
 	* train/subject_train.txt containing the subject id for each measurement
 
 #### Features selected
-The features selected include Mean or mean and std in it's name.  A comprehensive list of the features is available in the features.txt file in the unzipped data directory.
+The features selected for the analysis are those that include Mean or mean and std in it's name.  A comprehensive list of the features is available in the **features.txt** file in the unzipped data directory.
 
 #### Descriptive feature names
 To create descriptive names the variable or features transformed as follows:
@@ -38,11 +38,14 @@ To create descriptive names the variable or features transformed as follows:
 * All commas, parenthesis and hyphens are remove removed.
 
 #### Examples of variable name translation
-
-	| Original Name | Transformed Name |
-	|---------------|------------------|
-	| tBodyAcc-mean()-X | timeBodyAccMeanX |
-	| angle(tBodyGyroMean,gravityMean) | angleTimeBodyAccJerkMeanGravityMean |
+    
+    |--------------------------------------|-------------------------------------------|
+	| Original Name                        | Transformed Name                          |
+	|--------------------------------------|-------------------------------------------|
+	| tBodyAcc-mean()-X                    | timeBodyAccMeanX                          |
+	| angle(tBodyGyroMean,gravityMean)     | angleTimeBodyAccJerkMeanGravityMean       |
+	|--------------------------------------|-------------------------------------------|
+	
 
 #### Original selected features list
 From the feature_info.txt file in the data set the following features were selected based on occurrence of the **mean**, **Mean**, or **std** in the name and had some measurement values in it.  
