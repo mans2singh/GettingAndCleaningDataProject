@@ -57,28 +57,23 @@ Before the steps for creating the tidy data can executed the following data file
 * Features from the features.text file.  This file contains the variable names for the training and test observations.  The features in the file are listed in a tall table format and they need to be transposed into a wide table so that they can be applied as the column names for the observations.
 
 #### Processing steps
-1. Merge test and train data
+1. Merge test and train data  
 * Process test files
 	* Load the the test subject, observation and activity tables
 	* Apply the variable names 
-	* Combine the test variables for test data
-
+	* Combine the test variables for test data  
 * Process train data
 	* Load the train subject, observation, and activity tables
 	* Set up the variable names for train data
-	* Combine the subject, activity and observations data for train
-
+	* Combine the subject, activity and observations data for train  
 * Combine the test and train data
 
 2. Select the std and mean related columns names
-* Select the values of the mean and std variables
-
-3. Add activity name to the combined table
-
-4. Provide descriptive variable names using the **stringr** package
+* Select the values of the mean and std variables  
+3. Add activity name to the combined table  
+4. Provide descriptive variable names using the **stringr** package  
 * Extract the column names
-* Translate names into descriptive names
-
+* Translate names into descriptive names  
 5. Create tidy data set with average for each variable for each activity and subject
 * Compute the mean using **dplyr** package 
 * Output the tidy data set is saved as **tidy_combined_statistics.txt** file
