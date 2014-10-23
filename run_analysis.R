@@ -81,4 +81,4 @@ combined_statistics <- combined_test_train_subject_y_X_mean_std %>% group_by(sub
 
 # Save the file
 
-write.table(combined_statistics,"tidy_combined_statistics")
+write.table(combined_statistics,"tidy_combined_statistics.txt",row.names=FALSE)
