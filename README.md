@@ -67,12 +67,16 @@ Before the steps for creating the tidy data can executed the following data file
 	* Set up the variable names for train data
 	* Combine the subject, activity and observations data for train  
 * Combine the test and train data  
+
 #####2. Select the std and mean related columns names  
 * Select the values of the mean and std variables  
+
 #####3. Add activity name to the combined table  
+
 #####4. Provide descriptive variable names using the **stringr** package  
 * Extract the column names
 * Translate names into descriptive names  
+
 #####5. Create tidy data set with average for each variable for each activity and subject
 * Compute the mean using **dplyr** package 
 * Output the tidy data set is saved as **tidy_combined_statistics.txt** file
