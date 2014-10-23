@@ -37,6 +37,9 @@ To create descriptive names the variable or features transformed as follows:
 * variable names with **mean** or **std** were replaced by **Mean** and **Std**
 * All commas, parenthesis and hyphens are remove removed.
 
+##### Variable name format decision
+I choose to make the variables camel-case since they are easy to ready.  I left the components of the variable name (eg: in the first row below - for tBodyAcc-mean()-X, transformed to timeBodyAccMeanX) so that the context of the variables generated is not lost in translation.
+
 #### Examples of variable name translation
     
     |--------------------------------------|-------------------------------------------|
