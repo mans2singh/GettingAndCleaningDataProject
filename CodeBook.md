@@ -48,7 +48,9 @@ To create descriptive names the variable or features transformed as follows:
 	
 
 #### Original selected features list
-From the feature_info.txt file in the data set the following features were selected based on occurrence of the **mean**, **Mean**, or **std** in the name and had some measurement values in it.  
+From the feature_info.txt file in the data set the following features were selected based on occurrence of the **mean**, **Mean**, or **std** in the name.  The rationale for selecting all the matching fields is that each represents a different measurement. 
+
+Following is the list of selected features.
 
 >
 tBodyAcc-mean()-X                   
@@ -144,6 +146,8 @@ The final variable names includes the
 * activity id, 
 * activity name, and 
 * 86 average of measurements corresponding to the origin variables mentioned above after transforming the variable names.
+
+Following is the list of variables in the final tidy set table:
 
 >
 subject_id                          
