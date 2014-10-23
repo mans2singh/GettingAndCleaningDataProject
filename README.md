@@ -57,7 +57,7 @@ Before the steps for creating the tidy data can executed the following data file
 * Features from the features.text file.  This file contains the variable names for the training and test observations.  The features in the file are listed in a tall table format and they need to be transposed into a wide table so that they can be applied as the column names for the observations.
 
 #### Processing steps
-1. Merge test and train data  
+#####1. Merge test and train data  
 * Process test files
 	* Load the the test subject, observation and activity tables
 	* Apply the variable names 
