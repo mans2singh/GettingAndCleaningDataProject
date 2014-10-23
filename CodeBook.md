@@ -18,7 +18,7 @@ To create descriptive names the following variable names were transformed as fol
 From the feature_info.txt file in the data set 
 
 
-The original 86 variable names are as follows
+The original 86 variable names are as follows:
 
 tBodyAcc-mean()-X                   
 tBodyAcc-mean()-Y                   
@@ -108,7 +108,7 @@ angle(Y,gravityMean)
 angle(Z,gravityMean)                
 
 
-The final variable names includes the subject id, activity id, activity name and 86 average of measurements
+The final variable names includes the subject id, activity id, activity name and 86 average of measurements corresponding to the origin variables mentioned above after transforming the variable names.
 
 subject_id                          
 activity_id                         
