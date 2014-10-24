@@ -54,6 +54,7 @@ the script is in the directory with the following files/directories:
     
 #### Executing the script from command line
 * Set current working directory to be the unzipped UCI data directory
+* Ensure that Rscript is the path
 * Launch the script with the following command  
 > Rscript run_analysis.R
 
