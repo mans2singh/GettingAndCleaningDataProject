@@ -43,13 +43,14 @@ the script is in the directory with the following files/diretories:
 #### Helper function 
 * A helper function defined in the run_analysis.R script is also used for making the variables more readable.
     
-### Executing the script from R Environment
+### Executing the analysis script    
+#### Executing the script from R Environment
 * Start the R application
 * Set the working directory to be the unzipped UCI data directory
 * Launch the script using the command  
 > source("run_analysis.R")   
     
-### Executing the script from command line
+#### Executing the script from command line
 * Set current working directory to be the unzipped UCI data directory
 * Launch the script with the following command
 > Rscript run_analysis.R
