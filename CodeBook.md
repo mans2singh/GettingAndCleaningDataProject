@@ -158,7 +158,7 @@ The final variable names in the computed statistics data set includes the
 * subject id, 
 * activity id, 
 * activity name, and 
-* 86 average of measurements corresponding to the origin variables mentioned above after transforming the variable names.  These values for these variables is the mean of the values for that metric grouped by each subject and activity.
+* 86 average of measurements corresponding to the origin variables mentioned above after transforming the variable names.  The values for these variables are the **mean** of the values for that metric grouped by each subject and activity.  I choose not to add the suffix "Mean" to the summarized values.
 
 Following is the list of variables in the final tidy set table:
 
