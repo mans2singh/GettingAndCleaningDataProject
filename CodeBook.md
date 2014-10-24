@@ -40,7 +40,7 @@ To create descriptive names the variable or features transformed as follows:
 ##### Variable name format decision
 I choose to make the variables camel-case since they are easy to ready.  I left the components of the variable name (eg: in the first row below - for tBodyAcc-mean()-X, transformed to timeBodyAccMeanX) so that the context of the variables generated is not lost in translation.
 
-#### Examples of variable name translation
+#### Examples of two variable name translation:
     
     |--------------------------------------|-------------------------------------------|
 	| Original Name                        | Transformed Name                          |
@@ -51,9 +51,11 @@ I choose to make the variables camel-case since they are easy to ready.  I left 
 	
 
 #### Original selected features list
-From the feature_info.txt file in the data set the following features were selected based on occurrence of the **mean**, **Mean**, or **std** in the name.  The rationale for selecting all the matching fields is that each represents a different measurement. 
 
-Following is the list of selected features.
+Detailed description of the features and the naming convention is available in the **features_info.txt** file in the top level directory of the unzipped UCI data.
+From the feature_info.txt file, the following features were selected based on occurrence of the **mean**, **Mean**, or **std** in the name.  The rationale for selecting all the matching fields is that each represents a different measurement. 
+
+Following is the list of selected features:
 
 >
 tBodyAcc-mean()-X                   
@@ -144,11 +146,11 @@ angle(Y,gravityMean)
 angle(Z,gravityMean)                
 
 #### Final feature names
-The final variable names includes the 
+The final variable names in the computed statistics data set includes the 
 * subject id, 
 * activity id, 
 * activity name, and 
-* 86 average of measurements corresponding to the origin variables mentioned above after transforming the variable names.
+* 86 average of measurements corresponding to the origin variables mentioned above after transforming the variable names.  These values for these variables is the mean of the values for that metric grouped by each subject and activity.
 
 Following is the list of variables in the final tidy set table:
 
