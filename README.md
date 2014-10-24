@@ -1,10 +1,10 @@
-GettingAndCleaningDataProject
+Getting And Cleaning Data Project
 =============================
 
 Coursera Getting and Cleaning Data Project Assignment
 
 ### Introduction  
-This R script executes the steps for creating a tidy data from that includes the mean for all columns with mean and std for each subject and activity from the UCI data set. 
+This course project involves creating an R script, run_analysis.R, that takes as input  ![Human Activity Recognition Using Smartphones Data Set](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones), and creates a tidy data which includes the mean for all columns grouped by subject and activity. 
 
 #### Processing Steps
 The mains steps involved in the processing are  
@@ -14,8 +14,10 @@ The mains steps involved in the processing are
 * Appropriately labels the data set with descriptive variable names. 
 * From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject
 
-#### Data files used from the unzipped UCI data directory
-The following data files are used for the project
+#### Data 
+The data used in the project is available at https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip. Once unzipped it creates a directory **UCI HAR Dataset** with data files under that directory.
+
+The following data files are used in the project files from the unzipped UCI data directory
 * features.txt for variable names
 * activity.txt for activity id to activity name mapping
 * Test data 
@@ -30,7 +32,7 @@ The following data files are used for the project
 ### Pre-requisites for executing the script  
 * Data input
 	* The script assumes that the UCI data has been unzipped
-the script is in the directory with the following files/diretories:
+the script is in the directory with the following files/directories:
 		* features.txt, 
 		* activity.txt
 		* test directory containing test data
@@ -52,7 +54,7 @@ the script is in the directory with the following files/diretories:
     
 #### Executing the script from command line
 * Set current working directory to be the unzipped UCI data directory
-* Launch the script with the following command
+* Launch the script with the following command  
 > Rscript run_analysis.R
 
 ### Details of the processing steps:
@@ -81,7 +83,7 @@ Before the steps for creating the tidy data can executed the following data file
 
 #####4. Provide descriptive variable names using the **stringr** package  
 * Extract the column names
-* Translate names into descriptive names  
+* Translate names into descriptive names.  Details of the translations are in the project's CodeBoook.md
 
 #####5. Create tidy data set with average for each variable for each activity and subject
 * Compute the mean using **dplyr** package 

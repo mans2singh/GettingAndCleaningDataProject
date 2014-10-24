@@ -1,14 +1,22 @@
 Code Book
 =================
 
-#### Data
-The data used for this project is available from 
-http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+#### Background
+The HAR data set was collected from 30 volunteers while performing 6 activities wearing a Samsung Galaxy II smartphone as mentioned on ![UCI HAR Data Set site](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
+
+#### UCI HAR Data Set
+The data used for this project is available from ![
+Human Activity Recognition Using Smartphones Data Set](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
+
+##### Data Source:
+Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
+Smartlab - Non Linear Complex Systems Laboratory
+DITEN - UniversitÃ  degli Studi di Genova, Genoa I-16145, Italy. 
 
 For the project the data was downloaded from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
-#### Analysis
-The analysis of the data involves 
+#### Analysis Project
+The analysis project involves the following steps: 
 * Merging the test and train data measurements and associating variable names with the observations, and combining the measurements with the subject and activity id.
 * Extracting only variables with standard deviation and mean in the name,  
 * Provide descriptive names for the variable, and 
@@ -27,7 +35,7 @@ The following data files, located in the unzipped data directory, were used for 
 	* train/y_train.txt containing the activity id for each measurement
 	* train/subject_train.txt containing the subject id for each measurement
 
-#### Features selected
+#### Selected Features
 The features selected for the analysis are those that include Mean or mean and std in it's name.  A comprehensive list of the features is available in the **features.txt** file in the unzipped data directory.
 
 #### Descriptive feature names
@@ -38,9 +46,9 @@ To create descriptive names the variable or features transformed as follows:
 * All commas, parenthesis and hyphens are remove removed.
 
 ##### Variable name format decision
-I choose to make the variables camel-case since they are easy to ready.  I left the components of the variable name (eg: in the first row below - for tBodyAcc-mean()-X, transformed to timeBodyAccMeanX) so that the context of the variables generated is not lost in translation.
+I choose to make the variables camel-case since they are easy to ready.  I left the short names of the variable name so that the context of the variables generated is not lost in translation. (Eg: in the first row below - for tBodyAcc-mean()-X, transformed to timeBodyAccMeanX) 
 
-#### Examples of two variable name translation:
+#### Examples of two variable name and their transformation:
     
     |--------------------------------------|-------------------------------------------|
 	| Original Name                        | Transformed Name                          |
@@ -50,10 +58,10 @@ I choose to make the variables camel-case since they are easy to ready.  I left 
 	|--------------------------------------|-------------------------------------------|
 	
 
-#### Original selected features list
+#### Selected features list
 
 Detailed description of the features and the naming convention is available in the **features_info.txt** file in the top level directory of the unzipped UCI data.
-From the feature_info.txt file, the following features were selected based on occurrence of the **mean**, **Mean**, or **std** in the name.  The rationale for selecting all the matching fields is that each represents a different measurement. 
+From the feature_info.txt file, the following features were selected based on occurrence of the **mean**, **Mean**, or **std** in the name.  The rationale for selecting all the matching fields is that each represents a different measurement for each subject and activity and these need to be averaged per subject per activity.
 
 Following is the list of selected features:
 
