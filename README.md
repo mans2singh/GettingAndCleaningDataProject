@@ -39,8 +39,8 @@ the script is in the directory with the following files/directories:
 		* train directory containing train data
 * Script location
 	* The script should be executed from the directory containing the unzipped data 
-* R library requirements
-	* The script uses dplyr and stringr packages.
+* R package requirements
+	* The script assumes that **dplyr** and **stringr** packages are installed.
 
 #### Helper function 
 * A helper function defined in the run_analysis.R script is also used for making the variables more readable.
@@ -84,7 +84,7 @@ Before the steps for creating the tidy data can executed the following data file
 
 #####4. Provide descriptive variable names using the **stringr** package  
 * Extract the column names
-* Translate names into descriptive names.  Details of the translations are in the project's CodeBoook.md
+* Translate names into descriptive names.  Details of the translations are in the project's CodeBook.md
 
 #####5. Create tidy data set with average for each variable for each activity and subject
 * Compute the mean using **dplyr** package 
