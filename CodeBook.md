@@ -154,11 +154,15 @@ angle(Y,gravityMean)
 angle(Z,gravityMean)                
 
 #### Final feature names
-The final variable names in the computed statistics data set includes the 
+The final variable names in the computed statistics data set includes the  
 * subject id, 
 * activity id, 
 * activity name, and 
-* 86 average of measurements corresponding to the origin variables mentioned above after transforming the variable names.  The values for these variables are the **mean** of the values for that metric grouped by each subject and activity.  I choose not to add the suffix "Mean" to the summarized values.
+* 86 average of measurements corresponding to the origin variables mentioned above after transforming the variable names.  The values for these variables are the **mean** of the values for that metric grouped by each subject and activity.  
+* Design decision  
+	* To avoid extra long variable names, did not add extra suffix to each measured variables' average
+	* Keep the activity_id reference in tidy data so that it can be used to join to other tables in future
+
 
 Following is the list of variables in the final tidy set table:
 

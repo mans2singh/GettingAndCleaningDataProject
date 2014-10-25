@@ -1,8 +1,6 @@
 Getting And Cleaning Data Project
 =============================
 
-Coursera Getting and Cleaning Data Project Assignment
-
 ### Introduction  
 This course project involves creating an R script, run_analysis.R, that takes as input  ![Human Activity Recognition Using Smartphones Data Set](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones), and creates a tidy data which includes the mean for all columns grouped by subject and activity. 
 
@@ -27,7 +25,8 @@ The following data files are used in the project files from the unzipped UCI dat
 * Train data
 	* train/X_train.txt containing measurements
 	* train/y_train.txt containing the activity id for each measurement
-	* train/subject_train.txt containing the subject id for each measurement
+	* train/subject_train.txt containing the subject id for each measurement  
+* The **Inertial Signal** data under the test and train directory are not included in the analysis
     
 ### Pre-requisites for executing the script  
 * Data input
@@ -41,7 +40,8 @@ the script is in the directory with the following files/directories:
 	* The script should be executed from the directory containing the unzipped data 
 * R package requirements
 	* The script assumes that **dplyr** and **stringr** packages are installed.
-
+	* The **dplyr** library provides aggregation functionality by various groups and the **stringr** package provides string replacent functions
+	
 #### Helper function 
 * A helper function defined in the run_analysis.R script is also used for making the variables more readable.
     
