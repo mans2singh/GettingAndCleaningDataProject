@@ -35,6 +35,8 @@ The following data files, located in the unzipped data directory, were used for 
 	* train/y_train.txt containing the activity id for each measurement
 	* train/subject_train.txt containing the subject id for each measurement
 
+The measurements have been normalized and bounded between -1 and 1.
+
 #### Selected Features
 The features selected for the analysis are those that include Mean or mean and std in it's name.  A comprehensive list of the features is available in the **features.txt** file in the unzipped data directory.
 
