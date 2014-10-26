@@ -68,92 +68,92 @@ From the feature_info.txt file, the following features were selected based on oc
 Following is the list of selected features:
 
 >
-tBodyAcc-mean()-X                   
-tBodyAcc-mean()-Y                   
-tBodyAcc-mean()-Z                   
-tBodyAcc-std()-X                    
-tBodyAcc-std()-Y                    
-tBodyAcc-std()-Z                    
-tGravityAcc-mean()-X                
-tGravityAcc-mean()-Y                
-tGravityAcc-mean()-Z                
-tGravityAcc-std()-X                 
-tGravityAcc-std()-Y                 
-tGravityAcc-std()-Z                 
-tBodyAccJerk-mean()-X               
-tBodyAccJerk-mean()-Y               
-tBodyAccJerk-mean()-Z               
-tBodyAccJerk-std()-X                
-tBodyAccJerk-std()-Y                
-tBodyAccJerk-std()-Z                
-tBodyGyro-mean()-X                  
-tBodyGyro-mean()-Y                  
-tBodyGyro-mean()-Z                  
-tBodyGyro-std()-X                   
-tBodyGyro-std()-Y                   
-tBodyGyro-std()-Z                   
-tBodyGyroJerk-mean()-X              
-tBodyGyroJerk-mean()-Y              
-tBodyGyroJerk-mean()-Z              
-tBodyGyroJerk-std()-X               
-tBodyGyroJerk-std()-Y               
-tBodyGyroJerk-std()-Z               
-tBodyAccMag-mean()                  
-tBodyAccMag-std()                   
-tGravityAccMag-mean()               
-tGravityAccMag-std()                
-tBodyAccJerkMag-mean()              
-tBodyAccJerkMag-std()               
-tBodyGyroMag-mean()                 
-tBodyGyroMag-std()                  
-tBodyGyroJerkMag-mean()             
-tBodyGyroJerkMag-std()              
-fBodyAcc-mean()-X                   
-fBodyAcc-mean()-Y                   
-fBodyAcc-mean()-Z                   
-fBodyAcc-std()-X                    
-fBodyAcc-std()-Y                    
-fBodyAcc-std()-Z                    
-fBodyAcc-meanFreq()-X               
-fBodyAcc-meanFreq()-Y               
-fBodyAcc-meanFreq()-Z               
-fBodyAccJerk-mean()-X               
-fBodyAccJerk-mean()-Y               
-fBodyAccJerk-mean()-Z               
-fBodyAccJerk-std()-X                
-fBodyAccJerk-std()-Y                
-fBodyAccJerk-std()-Z                
-fBodyAccJerk-meanFreq()-X           
-fBodyAccJerk-meanFreq()-Y           
-fBodyAccJerk-meanFreq()-Z           
-fBodyGyro-mean()-X                  
-fBodyGyro-mean()-Y                  
-fBodyGyro-mean()-Z                  
-fBodyGyro-std()-X                   
-fBodyGyro-std()-Y                   
-fBodyGyro-std()-Z                   
-fBodyGyro-meanFreq()-X              
-fBodyGyro-meanFreq()-Y              
-fBodyGyro-meanFreq()-Z              
-fBodyAccMag-mean()                  
-fBodyAccMag-std()                   
-fBodyAccMag-meanFreq()              
-fBodyBodyAccJerkMag-mean()          
-fBodyBodyAccJerkMag-std()           
-fBodyBodyAccJerkMag-meanFreq()      
-fBodyBodyGyroMag-mean()             
-fBodyBodyGyroMag-std()              
-fBodyBodyGyroMag-meanFreq()         
-fBodyBodyGyroJerkMag-mean()         
-fBodyBodyGyroJerkMag-std()          
-fBodyBodyGyroJerkMag-meanFreq()     
-angle(tBodyAccMean,gravity)         
-angle(tBodyAccJerkMean),gravityMean)  
-angle(tBodyGyroMean,gravityMean)    
-angle(tBodyGyroJerkMean,gravityMean)  
-angle(X,gravityMean)                
-angle(Y,gravityMean)                
-angle(Z,gravityMean)                
+1 tBodyAcc-mean()-X                   
+2 tBodyAcc-mean()-Y                   
+3 tBodyAcc-mean()-Z                   
+4 tBodyAcc-std()-X                    
+5 tBodyAcc-std()-Y                    
+6 tBodyAcc-std()-Z                    
+7 tGravityAcc-mean()-X                
+8 tGravityAcc-mean()-Y                
+9 tGravityAcc-mean()-Z                
+10 tGravityAcc-std()-X                 
+11 tGravityAcc-std()-Y                 
+12 tGravityAcc-std()-Z                 
+13 tBodyAccJerk-mean()-X               
+14 tBodyAccJerk-mean()-Y               
+15 tBodyAccJerk-mean()-Z               
+16 tBodyAccJerk-std()-X                
+17 tBodyAccJerk-std()-Y                
+18 tBodyAccJerk-std()-Z                
+19 tBodyGyro-mean()-X                  
+20 tBodyGyro-mean()-Y                  
+21 tBodyGyro-mean()-Z                  
+22 tBodyGyro-std()-X                   
+23 tBodyGyro-std()-Y                   
+24 tBodyGyro-std()-Z                   
+25 tBodyGyroJerk-mean()-X              
+26 tBodyGyroJerk-mean()-Y              
+27 tBodyGyroJerk-mean()-Z              
+28 tBodyGyroJerk-std()-X               
+29 tBodyGyroJerk-std()-Y               
+30 tBodyGyroJerk-std()-Z               
+31 tBodyAccMag-mean()                  
+32 tBodyAccMag-std()                   
+33 tGravityAccMag-mean()               
+34 tGravityAccMag-std()                
+35 tBodyAccJerkMag-mean()              
+36 tBodyAccJerkMag-std()               
+37 tBodyGyroMag-mean()                 
+38 tBodyGyroMag-std()                  
+39 tBodyGyroJerkMag-mean()             
+40 tBodyGyroJerkMag-std()              
+41 fBodyAcc-mean()-X                   
+42 fBodyAcc-mean()-Y                   
+43 fBodyAcc-mean()-Z                   
+44 fBodyAcc-std()-X                    
+45 fBodyAcc-std()-Y                    
+46 fBodyAcc-std()-Z                    
+47 fBodyAcc-meanFreq()-X               
+48 fBodyAcc-meanFreq()-Y               
+49 fBodyAcc-meanFreq()-Z               
+50 fBodyAccJerk-mean()-X               
+51 fBodyAccJerk-mean()-Y               
+52 fBodyAccJerk-mean()-Z               
+53 fBodyAccJerk-std()-X                
+54 fBodyAccJerk-std()-Y                
+55 fBodyAccJerk-std()-Z                
+56 fBodyAccJerk-meanFreq()-X           
+57 fBodyAccJerk-meanFreq()-Y           
+58 fBodyAccJerk-meanFreq()-Z           
+59 fBodyGyro-mean()-X                  
+60 fBodyGyro-mean()-Y                  
+61 fBodyGyro-mean()-Z                  
+62 fBodyGyro-std()-X                   
+63 fBodyGyro-std()-Y                   
+64 fBodyGyro-std()-Z                   
+65 fBodyGyro-meanFreq()-X              
+66 fBodyGyro-meanFreq()-Y              
+67 fBodyGyro-meanFreq()-Z              
+68 fBodyAccMag-mean()                  
+69 fBodyAccMag-std()                   
+70 fBodyAccMag-meanFreq()              
+71 fBodyBodyAccJerkMag-mean()          
+72 fBodyBodyAccJerkMag-std()           
+73 fBodyBodyAccJerkMag-meanFreq()      
+74 fBodyBodyGyroMag-mean()             
+75 fBodyBodyGyroMag-std()              
+76 fBodyBodyGyroMag-meanFreq()         
+77 fBodyBodyGyroJerkMag-mean()         
+78 fBodyBodyGyroJerkMag-std()          
+79 fBodyBodyGyroJerkMag-meanFreq()     
+80 angle(tBodyAccMean,gravity)         
+81 angle(tBodyAccJerkMean),gravityMean)  
+82 angle(tBodyGyroMean,gravityMean)    
+83 angle(tBodyGyroJerkMean,gravityMean)  
+84 angle(X,gravityMean)                
+85 angle(Y,gravityMean)                
+86 angle(Z,gravityMean)                
 
 #### Final feature names
 The final variable names in the computed statistics data set includes the  
@@ -169,95 +169,95 @@ The final variable names in the computed statistics data set includes the
 Following is the list of variables in the final tidy set table:
 
 >
-subject_id                          
-activity_id                         
-activity_name                       
-timeBodyAccMeanX                    
-timeBodyAccMeanY                    
-timeBodyAccMeanZ                    
-timeBodyAccStdX                     
-timeBodyAccStdY                     
-timeBodyAccStdZ                     
-timeGravityAccMeanX                 
-timeGravityAccMeanY                 
-timeGravityAccMeanZ                 
-timeGravityAccStdX                  
-timeGravityAccStdY                  
-timeGravityAccStdZ                  
-timeBodyAccJerkMeanX                
-timeBodyAccJerkMeanY                
-timeBodyAccJerkMeanZ                
-timeBodyAccJerkStdX                 
-timeBodyAccJerkStdY                 
-timeBodyAccJerkStdZ                 
-timeBodyGyroMeanX                   
-timeBodyGyroMeanY                   
-timeBodyGyroMeanZ                   
-timeBodyGyroStdX                    
-timeBodyGyroStdY                    
-timeBodyGyroStdZ                    
-timeBodyGyroJerkMeanX               
-timeBodyGyroJerkMeanY               
-timeBodyGyroJerkMeanZ               
-timeBodyGyroJerkStdX                
-timeBodyGyroJerkStdY                
-timeBodyGyroJerkStdZ                
-timeBodyAccMagMean                  
-timeBodyAccMagStd                   
-timeGravityAccMagMean               
-timeGravityAccMagStd                
-timeBodyAccJerkMagMean              
-timeBodyAccJerkMagStd               
-timeBodyGyroMagMean                 
-timeBodyGyroMagStd                  
-timeBodyGyroJerkMagMean             
-timeBodyGyroJerkMagStd              
-freqBodyAccMeanX                    
-freqBodyAccMeanY                    
-freqBodyAccMeanZ                    
-freqBodyAccStdX                     
-freqBodyAccStdY                     
-freqBodyAccStdZ                     
-freqBodyAccMeanFreqX                
-freqBodyAccMeanFreqY                
-freqBodyAccMeanFreqZ                
-freqBodyAccJerkMeanX                
-freqBodyAccJerkMeanY                
-freqBodyAccJerkMeanZ                
-freqBodyAccJerkStdX                 
-freqBodyAccJerkStdY                 
-freqBodyAccJerkStdZ                 
-freqBodyAccJerkMeanFreqX            
-freqBodyAccJerkMeanFreqY            
-freqBodyAccJerkMeanFreqZ            
-freqBodyGyroMeanX                   
-freqBodyGyroMeanY                   
-freqBodyGyroMeanZ                   
-freqBodyGyroStdX                    
-freqBodyGyroStdY                    
-freqBodyGyroStdZ                    
-freqBodyGyroMeanFreqX               
-freqBodyGyroMeanFreqY               
-freqBodyGyroMeanFreqZ               
-freqBodyAccMagMean                  
-freqBodyAccMagStd                   
-freqBodyAccMagMeanFreq              
-freqBodyBodyAccJerkMagMean          
-freqBodyBodyAccJerkMagStd           
-freqBodyBodyAccJerkMagMeanFreq      
-freqBodyBodyGyroMagMean             
-freqBodyBodyGyroMagStd              
-freqBodyBodyGyroMagMeanFreq         
-freqBodyBodyGyroJerkMagMean         
-freqBodyBodyGyroJerkMagStd          
-freqBodyBodyGyroJerkMagMeanFreq     
-angleTimeBodyAccMeanGravity         
-angleTimeBodyAccJerkMeanGravityMean  
-angleTimeBodyGyroMeanGravityMean    
-angleTimeBodyGyroJerkMeanGravityMean  
-angleXGravityMean                   
-angleYGravityMean                   
-angleZGravityMean                   
+1 subject_id                          
+2 activity_id                         
+3 activity_name                       
+4 timeBodyAccMeanX                    
+5 timeBodyAccMeanY                    
+6 timeBodyAccMeanZ                    
+7 timeBodyAccStdX                     
+8 timeBodyAccStdY                     
+9 timeBodyAccStdZ                     
+10 timeGravityAccMeanX                 
+11 timeGravityAccMeanY                 
+12 timeGravityAccMeanZ                 
+13 timeGravityAccStdX                  
+14 timeGravityAccStdY                  
+15 timeGravityAccStdZ                  
+16 timeBodyAccJerkMeanX                
+17 timeBodyAccJerkMeanY                
+18 timeBodyAccJerkMeanZ                
+19 timeBodyAccJerkStdX                 
+20 timeBodyAccJerkStdY                 
+21 timeBodyAccJerkStdZ                 
+22 timeBodyGyroMeanX                   
+23 timeBodyGyroMeanY                   
+24 timeBodyGyroMeanZ                   
+25 timeBodyGyroStdX                    
+26 timeBodyGyroStdY                    
+27 timeBodyGyroStdZ                    
+28 timeBodyGyroJerkMeanX               
+29 timeBodyGyroJerkMeanY               
+30 timeBodyGyroJerkMeanZ               
+31 timeBodyGyroJerkStdX                
+32 timeBodyGyroJerkStdY                
+33 timeBodyGyroJerkStdZ                
+34 timeBodyAccMagMean                  
+35 timeBodyAccMagStd                   
+36 timeGravityAccMagMean               
+37 timeGravityAccMagStd                
+38 timeBodyAccJerkMagMean              
+39 timeBodyAccJerkMagStd               
+40 timeBodyGyroMagMean                 
+41 timeBodyGyroMagStd                  
+42 timeBodyGyroJerkMagMean             
+43 timeBodyGyroJerkMagStd              
+44 freqBodyAccMeanX                    
+45 freqBodyAccMeanY                    
+46 freqBodyAccMeanZ                    
+47 freqBodyAccStdX                     
+48 freqBodyAccStdY                     
+49 freqBodyAccStdZ                     
+50 freqBodyAccMeanFreqX                
+51 freqBodyAccMeanFreqY                
+52 freqBodyAccMeanFreqZ                
+53 freqBodyAccJerkMeanX                
+54 freqBodyAccJerkMeanY                
+55 freqBodyAccJerkMeanZ                
+56 freqBodyAccJerkStdX                 
+57 freqBodyAccJerkStdY                 
+58 freqBodyAccJerkStdZ                 
+59 freqBodyAccJerkMeanFreqX            
+60 freqBodyAccJerkMeanFreqY            
+61freqBodyAccJerkMeanFreqZ            
+62 freqBodyGyroMeanX                   
+63 freqBodyGyroMeanY                   
+64 freqBodyGyroMeanZ                   
+65 freqBodyGyroStdX                    
+66 freqBodyGyroStdY                    
+67 freqBodyGyroStdZ                    
+68 freqBodyGyroMeanFreqX               
+69 freqBodyGyroMeanFreqY               
+70 freqBodyGyroMeanFreqZ               
+71 freqBodyAccMagMean                  
+72 freqBodyAccMagStd                   
+73 freqBodyAccMagMeanFreq              
+74 freqBodyBodyAccJerkMagMean          
+75 freqBodyBodyAccJerkMagStd           
+76 freqBodyBodyAccJerkMagMeanFreq      
+77 freqBodyBodyGyroMagMean             
+78 freqBodyBodyGyroMagStd              
+79 freqBodyBodyGyroMagMeanFreq         
+80 freqBodyBodyGyroJerkMagMean         
+81 freqBodyBodyGyroJerkMagStd          
+82 freqBodyBodyGyroJerkMagMeanFreq     
+83 angleTimeBodyAccMeanGravity         
+84 angleTimeBodyAccJerkMeanGravityMean  
+85 angleTimeBodyGyroMeanGravityMean    
+86 angleTimeBodyGyroJerkMeanGravityMean  
+87 angleXGravityMean                   
+88 angleYGravityMean                   
+89 angleZGravityMean                   
  
 
  
