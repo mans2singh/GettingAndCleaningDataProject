@@ -48,7 +48,7 @@ To create descriptive names the variable or features transformed as follows:
 * All commas, parenthesis and hyphens are remove removed.
 
 ##### Variable name format decision
-The variable names were chosen to be camel-case so that they are easy to ready.  The shortened parts of names of were left as such so that the context of the variables generated is not lost in translation and the names don't get too long. (Eg: in the first row below - for tBodyAcc-mean()-X, transformed to timeBodyAccMeanX) 
+The variable names were chosen to be camel-case so that they are easy to ready.  The shortened parts of names of were left as such so that the context of the variables generated is not lost in translation and the names don't get too long. (Eg: in the first row below - tBodyAcc-mean()-X, is transformed to timeBodyAccMeanX) 
 
 #### Examples of two variable name and their transformation:
     
